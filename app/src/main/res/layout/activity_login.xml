@@ -7,6 +7,13 @@
     android:layout_height="match_parent"
     tools:context=".login">
 
+
+
+
+
+
+
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -39,6 +46,5 @@
         android:id="@+id/btnlogin"
         android:layout_below="@+id/edtpassword"
         android:textSize="30dp"
-        app:backgroundTint="#FF00"
         />  
 </RelativeLayout>
