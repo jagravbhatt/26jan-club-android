@@ -1,5 +1,6 @@
 package com.ro;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.activity.EdgeToEdge;
@@ -7,6 +8,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+
+
 
 public class signup extends AppCompatActivity {
 
@@ -20,8 +24,8 @@ public class signup extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-//        Intent intent = new Intent(MainActivity.this, SecondActivity.class);
-//        startActivity(intent);
+       Intent intent = new Intent(MainActivity.this, forgotpassword.class);
+       startActivity(intent);
 
     }
 }

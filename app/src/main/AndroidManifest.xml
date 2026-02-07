@@ -12,6 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme._2026Jan">
         <activity
+            android:name=".sp"
+            android:exported="false" />
+        <activity
+            android:name=".loginbackup"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".game"
             android:exported="true">
             <intent-filter>
