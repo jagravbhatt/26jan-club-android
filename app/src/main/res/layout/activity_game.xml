@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".game"
     android:orientation="vertical"
-    android:padding="30dp">
+    android:padding="30dp"
+    tools:context=".Game">
 
     <EditText
         android:id="@+id/edtGameActivityAmount"
@@ -15,37 +14,71 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:hint="Enter a bet amount"
-        android:textSize="10pt" />
+        android:textSize="16sp" />
 
     <GridLayout
         android:id="@+id/gridLayoutGameActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:rowCount="4"
+        android:rowCount="3"
         android:columnCount="3"
-        android:layout_marginTop="50dp"/>
+        android:layout_marginTop="50dp">
 
-        <ImageButton android:id="@+id/btn0"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+        <ImageButton
+            android:id="@+id/btn0"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:layout_margin="10dp"
-            android:background="@drawable/img_2"
-         />
+            android:background="@drawable/diamond"/>
 
-    <ImageButton android:id="@+id/btn1" android:layout_width="50dp" android:layout_height="50dp" android:layout_margin="10dp" android:background="@drawable/diamond" />
-    <ImageButton android:layout_width="50dp" android:layout_height="50dp" android:layout_margin="10dp" android:id="@+id/btn3" android:background="@drawable/img_4"/>
+        <ImageButton android:id="@+id/btn1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/diamond"/>
 
-<ImageButton
-    android:layout_width="50dp"
-    android:layout_height="50dp"
-    android:layout_margin="10dp"
-    android:id="@+id/btn4"
-    android:background="@drawable/bomb"/>
+        <ImageButton android:id="@+id/btn2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/diamond"/>
 
-    <ImageButton
-        android:id="@+id/btn5"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_margin="10dp"
-        android:background="@drawable/diamond1" />
+        <ImageButton android:id="@+id/btn3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/diamond"/>
+
+        <ImageButton android:id="@+id/btn4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/diamond"/>
+
+        <ImageButton android:id="@+id/btn5"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/diamond"/>
+
+        <ImageButton android:id="@+id/btn6"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/diamond"/>
+
+        <ImageButton android:id="@+id/btn7"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/diamond"/>
+
+        <ImageButton android:id="@+id/btn8"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/diamond"/>
+
+    </GridLayout>
+
 </LinearLayout>

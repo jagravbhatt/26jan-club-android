@@ -1,40 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
         android:allowBackup="true"
-        android:dataExtractionRules="@xml/data_extraction_rules"
-        android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="2026 jan"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme._2026Jan">
 
-        <!-- Login Screen (Launcher) -->
+        <!-- Calculator Launcher Activity -->
+        <activity
+            android:name=".calc"
+            android:exported="false"/>
+
+
+
+
+
+        <!-- Login Activity -->
         <activity
             android:name=".LoginActivity"
-            android:exported="false">
+            android:exported="false" />
 
-        </activity>
-
-        <!-- Signup Screen -->
+        <!-- Signup Activity -->
         <activity
             android:name=".signup"
-            android:exported="true" >
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+            android:exported="false" />
 
-        </activity>
-
-        <!-- Main Screen -->
+        <!-- Main Activity -->
         <activity
             android:name=".MainActivity"
             android:exported="false" />
 
+        <!-- Forgot Password -->
+        <activity
+            android:name=".forgotpassword"
+            android:exported="false" />
+
+        <!-- Game Activity -->
+        <activity
+            android:name=".game"
+            android:exported="false" />
+
+        <!-- c1 Activity -->
+        <activity
+            android:name=".c1"
+            android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN"/>
+            <category android:name="android.intent.category.LAUNCHER"/>
+        </intent-filter>
+        </activity>
     </application>
 
 </manifest>
