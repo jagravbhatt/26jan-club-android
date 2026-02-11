@@ -47,5 +47,5 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_margin="10dp"
-        android:background="@drawable/diamond1" />
+        android:background="@drawable/diamond" />
 </LinearLayout>
