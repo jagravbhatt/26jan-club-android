@@ -23,33 +23,29 @@
         android:layout_height="wrap_content"
         android:rowCount="4"
         android:columnCount="3"
-        android:layout_marginTop="50dp">
+        android:layout_marginTop="50dp"/>
 
         <ImageButton android:id="@+id/btn0"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_margin="10dp"
             android:background="@drawable/img_2"
-            />
-        <ImageButton android:id="@+id/btn1" android:layout_width="50dp" android:layout_height="50dp" android:layout_margin="10dp" android:background="@drawable/diamond"/>
-        <ImageButton android:id="@+id/btn2" android:layout_width="50dp" android:layout_height="50dp" android:layout_margin="10dp" android:background="@drawable/diamond"/>
-        <ImageButton android:id="@+id/btn3" android:layout_width="50dp" android:layout_height="50dp" android:layout_margin="10dp" android:background="@drawable/diamond"/>
-        <ImageButton android:id="@+id/btn4" android:layout_width="50dp" android:layout_height="50dp" android:layout_margin="10dp" android:background="@drawable/diamond"/>
-        <ImageButton
-            android:id="@+id/btn5"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_margin="10dp"
-            />
-        <ImageButton android:id="@+id/btn6" android:layout_width="50dp" android:layout_height="50dp" android:layout_margin="10dp" android:background="@drawable/img_4"/>
-        <ImageButton android:id="@+id/btn7" android:layout_width="50dp" android:layout_height="50dp" android:layout_margin="10dp" android:background="@drawable/diamond"/>
-        <ImageButton android:id="@+id/btn8" android:layout_width="50dp" android:layout_height="50dp" android:layout_margin="10dp" android:background="@drawable/diamond"/>
-        <ImageButton android:id="@+id/btn9" android:layout_width="50dp" android:layout_height="50dp" android:layout_margin="10dp" android:background="@drawable/diamond"/>
-        <ImageButton android:id="@+id/btn10" android:layout_width="50dp" android:layout_height="50dp" android:layout_margin="10dp" android:background="@drawable/diamond"/>
-        <ImageButton android:id="@+id/btn11" android:layout_width="50dp" android:layout_height="50dp" android:layout_margin="10dp" android:background="@drawable/diamond"/>
+         />
 
-    </GridLayout>
+    <ImageButton android:id="@+id/btn1" android:layout_width="50dp" android:layout_height="50dp" android:layout_margin="10dp" android:background="@drawable/diamond" />
+    <ImageButton android:layout_width="50dp" android:layout_height="50dp" android:layout_margin="10dp" android:id="@+id/btn3" android:background="@drawable/img_4"/>
 
+<ImageButton
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:layout_margin="10dp"
+    android:id="@+id/btn4"
+    android:background="@drawable/bomb"/>
 
-
+    <ImageButton
+        android:id="@+id/btn5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/diamond1" />
 </LinearLayout>

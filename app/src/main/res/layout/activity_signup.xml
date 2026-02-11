@@ -59,5 +59,6 @@
         android:layout_marginStart="120dp"
         android:layout_marginTop="30dp"
         android:backgroundTint="#DD2C00"
+        android:id="@+id/btnsignup"
         />
 </RelativeLayout>
